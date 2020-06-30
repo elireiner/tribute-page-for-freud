@@ -50,7 +50,8 @@ header>h1 {
 
 .img-div {
     margin: auto;
-    width: 451px;
+    width: 200px;
+height: 300px;
 }
 
 .img-div>img {
