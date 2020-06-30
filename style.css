@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    text-align: center
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 html,
@@ -10,33 +11,82 @@ body {
 }
 
 header {
-    background-color: #021859;
+    background-color: #0322CE;
     height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
 }
 
-header > h1 {
+header>h1 {
     margin: 0;
-    color: rgb(223, 230, 223);
+    color: #E3E3E3;
+    font-family: 'Noto Sans JP', sans-serif;
 }
+
+.about {
+    height: 110vh;
+}
+
 .title {
-    padding: 2vh;
+    padding: 5.5%;
     margin: 0;
+    color: #020F59;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
-.blue {
-    background-color: #0B9ED9
+.whisper {
+    background-color: #40AEF2;
+    width: 100%;
+    color: #020F59;
+
 }
 
 .img-div {
     margin: auto;
     width: 451px;
-    height: 640px;
 }
 
 .img-div>img {
-    width: 80%;
+    width: 40%;
     height: auto;
+}
+
+h2 {
+    padding-top: 4%;
+}
+
+.text {
+    padding-bottom: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+
+.paragraph {
+    text-align: left;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+/* Color Theme Swatches in Hex */
+.Two-jellyfish-on-a-blue-background-1-hex {
+    color: #0424D9;
+}
+
+.Two-jellyfish-on-a-blue-background-2-hex {
+    color: #031CA6;
+}
+
+.Two-jellyfish-on-a-blue-background-3-hex {
+    color: #03178C;
+}
+
+.Two-jellyfish-on-a-blue-background-4-hex {
+    color: #020F59;
+}
+
+.Two-jellyfish-on-a-blue-background-5-hex {
+    color: #3DADF2;
 }
