@@ -21,4 +21,22 @@ header > h1 {
     margin: 0;
     color: rgb(223, 230, 223);
 }
+.title {
+    padding: 2vh;
+    margin: 0;
+}
 
+.blue {
+    background-color: #0B9ED9
+}
+
+.img-div {
+    margin: auto;
+    width: 451px;
+    height: 640px;
+}
+
+.img-div>img {
+    width: 80%;
+    height: auto;
+}
